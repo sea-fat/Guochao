@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 1039px;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+    color: #333;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+img {
+    border: 0;
+    /*照顾低版本的浏览器  图片外面包含了链接会有边框*/
+    vertical-align: middle;
+    /*取消图片底部有空白缝隙的问题*/
+}
+
+button {
+    cursor: pointer;
+}
+
+button,
+input {
+    border: 0;
+    outline: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*清除浮动*/
+
+.clearfix:after {
+    display: block;
+    visibility: hidden;
+    content: '';
+    clear: both;
+}
+
+
+/*兼容*/
+
+.clearfix {
+    *zoom: 1;
+}
+
+li {
+    list-style: none;
+}

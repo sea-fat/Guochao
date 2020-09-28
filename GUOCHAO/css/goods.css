@@ -1,0 +1,203 @@
+.container {
+  width: 1016px;
+}
+.show-box {
+  margin-top: 200px;
+  position: relative;
+}
+.show-box .img-show {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 676px;
+  height: 480px;
+}
+.show-box .img-show .small-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 143px;
+  height: 429px;
+}
+.show-box .img-show .small-img .img-item {
+  width: 143px;
+  height: 143px;
+}
+.show-box .img-show .small-img .img-item img {
+  width: 100%;
+  height: 100%;
+}
+.show-box .img-show .small-img .choose-border {
+  border: 3px solid black;
+}
+.show-box .img-show .btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 143px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border: 1px solid black;
+  color: white;
+  cursor: pointer;
+}
+.show-box .img-show .btn div {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+}
+.show-box .img-show .btn .samll-img-swiper-button-prev {
+  transform: translate(-130%);
+}
+.show-box .img-show .btn .samll-img-swiper-button-next {
+  transform: translate(30%);
+}
+.show-box .img-show .big-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 480px;
+  height: 480px;
+  border: 2px solid #f5f5f5;
+}
+.show-box .img-show .big-img img {
+  width: 100%;
+  height: 100%;
+}
+.show-box .detail {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 480px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.show-box .detail h1 {
+  margin-top: 20px;
+  font-size: 36px;
+}
+.show-box .detail .size {
+  position: relative;
+  margin-top: 35px;
+  width: 300px;
+  height: 35px;
+}
+.show-box .detail .size span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 35px;
+  line-height: 35px;
+  color: rgba(175, 175, 175, 0.9);
+}
+.show-box .detail .size .sizes {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 220px;
+  height: 35px;
+}
+.show-box .detail .size .sizes div {
+  float: left;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin-right: 10px;
+  border: 1px solid rgba(175, 175, 175, 0.2);
+}
+.show-box .detail .size .sizes .current {
+  border: 2px solid black;
+}
+.show-box .detail .color {
+  position: relative;
+  margin-top: 55px;
+  width: 300px;
+  height: 35px;
+}
+.show-box .detail .color span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 35px;
+  line-height: 35px;
+  color: rgba(175, 175, 175, 0.9);
+}
+.show-box .detail .color .colors {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 220px;
+  height: 35px;
+}
+.show-box .detail .color .colors div {
+  float: left;
+  padding: 0 10px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin-right: 10px;
+  border: 1px solid rgba(175, 175, 175, 0.2);
+}
+.show-box .detail .color .colors .current {
+  border: 2px solid black;
+}
+.show-box .detail .num {
+  position: relative;
+  margin-top: 55px;
+  width: 300px;
+  height: 35px;
+}
+.show-box .detail .num span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 35px;
+  line-height: 35px;
+  color: rgba(175, 175, 175, 0.9);
+}
+.show-box .detail .num .nums {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 220px;
+  height: 35px;
+}
+.show-box .detail .num .nums i {
+  float: left;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: rgba(175, 175, 175, 0.1);
+  border: 1px solid rgba(175, 175, 175, 0.2);
+  cursor: pointer;
+}
+.show-box .detail .num .nums input {
+  float: left;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid rgba(175, 175, 175, 0.2);
+}
+.show-box .detail .num .nums .current {
+  border: 2px solid black;
+}
+.show-box .detail button {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 280px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+}

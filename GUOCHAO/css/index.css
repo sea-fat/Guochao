@@ -1,0 +1,242 @@
+body {
+  background-color: #1a1a1a;
+}
+/* 头部导航 */
+.header {
+  position: relative;
+  width: 100%;
+  height: 560px;
+  font-size: 16px;
+  color: white;
+}
+.header .top-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 130px;
+  width: 100%;
+  height: 60px;
+  z-index: 2;
+}
+.header .top-nav .logo {
+  float: left;
+  height: 60px;
+  line-height: 60px;
+}
+.header .top-nav .logo img {
+  width: 50px;
+  height: 50px;
+}
+.header .top-nav .l-title {
+  float: left;
+  height: 60px;
+}
+.header .top-nav .l-title li {
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 40px;
+}
+.header .top-nav .l-title li a {
+  display: inline-block;
+}
+.header .top-nav .r-title {
+  float: right;
+  height: 60px;
+  line-height: 60px;
+}
+.header .top-nav .r-title li {
+  float: left;
+  margin-left: 30px;
+}
+.header .top-nav .r-title li a {
+  display: inline-block;
+}
+.header .top-swiper-container {
+  position: relative;
+  width: 100%!important;
+  height: 100%!important;
+}
+.header .top-swiper-container .swiper-slide {
+  width: 100%!important;
+  height: 100%!important;
+}
+.header .top-swiper-container .swiper-slide img {
+  width: 100%!important;
+  height: 100%!important;
+}
+/* 国潮专辑 */
+.album {
+  position: relative;
+  margin-top: 150px;
+}
+.album .logo {
+  position: absolute;
+  left: 50%;
+  top: -35px;
+  width: 100px;
+  height: 100px;
+  transform: translateX(-50%);
+}
+.album .logo img {
+  width: 100%;
+  height: 100%;
+}
+.album .title {
+  height: 85px;
+  position: relative;
+  color: #fffeff;
+}
+.album .title .font {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 180px;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.album .title h1 {
+  font-size: 45px;
+}
+.album .album-item {
+  height: 280px;
+  margin-top: 40px;
+  position: relative;
+}
+.album .album-item .item {
+  width: 280px;
+  height: 280px;
+  border: 2px solid white;
+  position: absolute;
+  top: 0px;
+}
+.album .album-item .item img {
+  width: 100%;
+  height: 100%;
+}
+.album .album-item .item:nth-of-type(1) {
+  left: 80px;
+}
+.album .album-item .item:nth-of-type(2) {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.album .album-item .item:nth-of-type(3) {
+  right: 80px;
+}
+.update {
+  height: 800px;
+  margin-top: 150px;
+}
+.update .logo {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 100px;
+  height: 100px;
+  transform: translateX(-50%);
+}
+.update .logo img {
+  width: 100%;
+  height: 100%;
+}
+.update .title {
+  height: 68px;
+  position: relative;
+  color: #fffeff;
+}
+.update .title h1 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 180px;
+  height: 68px;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 45px;
+}
+.update .title .update-swiper {
+  position: absolute;
+  top: 50%;
+  width: 46px;
+  height: 46px;
+  transform: translateY(-50%);
+  border-radius: 23px;
+  background-color: #5b1a1b;
+  font-size: 45px;
+  text-align: center;
+  line-height: 46px;
+  cursor: pointer;
+}
+.update .title .update-swiper-btn-prev {
+  left: 200px;
+}
+.update .title .update-swiper-btn-next {
+  right: 200px;
+}
+.update .update-swiper-container {
+  width: 100%;
+  margin-top: 40px;
+  color: white;
+}
+.update .update-swiper-container .swiper-slide {
+  background-color: #1a1a1a;
+}
+.update .update-swiper-container .swiper-slide .goods-item {
+  position: relative;
+  float: left;
+  width: 240px;
+  height: 330px;
+  margin: 0 72px 60px 0;
+}
+.update .update-swiper-container .swiper-slide .goods-item:nth-of-type(4n) {
+  margin-right: 0px;
+}
+.update .update-swiper-container .swiper-slide .goods-item img {
+  width: 100%;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.3);
+}
+.update .update-swiper-container .swiper-slide .goods-item p {
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.update .update-swiper-container .swiper-slide .goods-item .price {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 210px;
+  height: 50px;
+  padding: 10px;
+  background-color: #a40609;
+}
+.update .update-swiper-container .swiper-slide .goods-item .price .decoration {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #1a1a1a;
+}
+.update .update-swiper-container .swiper-slide .goods-item .price .l-top {
+  top: 0;
+  left: 0;
+}
+.update .update-swiper-container .swiper-slide .goods-item .price .r-top {
+  top: 0;
+  right: 0;
+}
+.update .update-swiper-container .swiper-slide .goods-item .price .l-bottom {
+  bottom: 0;
+  left: 0;
+}
+.update .update-swiper-container .swiper-slide .goods-item .price .r-bottom {
+  bottom: 0;
+  right: 0;
+}
+.update .update-swiper-container .swiper-slide .goods-item .price .border {
+  width: 100%;
+  height: 100%;
+  border: 0.1px solid #ca9a9b;
+}

@@ -1,0 +1,250 @@
+
+body{
+    background-color: #1a1a1a;
+}
+
+/* 头部导航 */
+.header {
+    position: relative;
+    width: 100%;
+    height: 560px;
+    font-size: 16px;
+    color: white;
+    .top-nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding:0 130px;
+        width: 100%;
+        height: 60px;
+        z-index: 2;
+        .logo{
+            float: left;
+            height: 60px;
+            line-height: 60px;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+        .l-title {
+            float: left;
+            height: 60px;
+            li{
+                float: left;
+                height: 60px;
+                line-height: 60px;
+                margin-left: 40px;
+                a{
+                    display:inline-block
+                }
+            }
+        }
+        .r-title {
+            float: right;
+            height: 60px;
+            line-height: 60px;
+            li{
+                float: left;
+                margin-left: 30px;
+                a{
+                    display:inline-block
+                }
+            }
+        }
+    }
+    .top-swiper-container {
+        position: relative;
+        width: 100%!important;
+        height: 100%!important;
+        .swiper-slide {
+            width: 100%!important;
+            height: 100%!important;
+            img {
+                width: 100%!important;
+                height: 100%!important;
+            }
+        }
+    }
+}
+
+/* 国潮专辑 */
+.album{
+    position: relative;
+    margin-top: 150px;
+    .logo{
+        position: absolute;
+        left: 50%;
+        top: -35px;
+        width: 100px;
+        height: 100px;
+        transform: translateX(-50%);
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .title{
+        height: 85px;
+        position: relative;
+        color: #fffeff;
+        .font{
+            position: absolute;
+            left: 50%;
+            top: 0;
+            width: 180px;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+        h1{
+            font-size: 45px;
+        }
+    }
+    .album-item{
+        height: 280px;
+        margin-top: 40px;
+        position: relative; 
+        .item{
+            width: 280px;
+            height: 280px;
+            border: 2px solid white;
+            position: absolute;
+            top: 0px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            &:nth-of-type(1){
+                left: 80px;
+            }
+            &:nth-of-type(2){
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            &:nth-of-type(3){
+                right: 80px;
+            }
+        }
+    } 
+} 
+
+.update{
+    height:800px;
+    margin-top:150px;
+    .logo{
+        position: absolute;
+        left: 50%;
+        top: -30px;
+        width: 100px;
+        height: 100px;
+        transform: translateX(-50%);
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .title{
+        position: relative;
+        height: 68px;
+        position: relative;
+        color: #fffeff;
+        h1{
+            position: absolute;
+            left: 50%;
+            top: 0;
+            width: 180px;
+            height: 68px;
+            transform: translateX(-50%);
+            text-align: center;
+            font-size: 45px;
+        }
+        .update-swiper{
+            position: absolute;
+            top: 50%;
+            width: 46px;
+            height: 46px;
+            transform: translateY(-50%);
+            border-radius: 23px;
+            background-color: #5b1a1b;
+            font-size: 45px;
+            text-align: center;
+            line-height: 46px;
+            cursor: pointer;
+        }
+        .update-swiper-btn-prev{
+            left: 200px;
+        }
+        .update-swiper-btn-next{
+            right: 200px;
+        }
+        
+    }
+    .update-swiper-container{
+        width: 100%;
+        margin-top: 40px;
+        color: white;
+        .swiper-slide{
+            background-color: #1a1a1a;
+            .goods-item{
+                position: relative;
+                float: left;
+                width: 240px;
+                height: 330px;
+                margin: 0 72px 60px 0;
+                &:nth-of-type(4n){
+                    margin-right: 0px;
+                }
+                img{
+                    width: 100%;
+                    box-shadow: 0 3px 10px rgba(255,255,255, .3);
+                }
+                p{
+                    height: 45px;
+                    line-height: 45px;
+                    color: white;
+                    font-weight: 600;
+                    text-align: center;
+                }
+                .price{
+                    position: absolute;
+                    bottom: 0;
+                    left:50%;
+                    transform: translateX(-50%);
+                    width: 210px;
+                    height: 50px;
+                    padding: 10px;
+                    background-color: #a40609;
+                    .decoration{
+                        position: absolute;
+                        width: 8px;
+                        height:8px;
+                        background-color: #1a1a1a;   
+                    }
+                    .l-top{
+                        top: 0;
+                        left: 0;
+                    }
+                    .r-top{
+                        top: 0;
+                        right: 0;
+                    }
+                    .l-bottom{
+                        bottom: 0;
+                        left: 0;
+                    }
+                    .r-bottom {
+                        bottom: 0;
+                        right: 0;
+                    }
+                    .border{
+                        width: 100%;
+                        height: 100%;
+                        border: .1px solid #ca9a9b;
+                    } 
+                }
+            }
+        } 
+        
+    }
+}
+

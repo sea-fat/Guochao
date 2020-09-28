@@ -1,0 +1,210 @@
+@color:black;
+.container{
+    width: 1016px;
+}
+
+.show-box{
+    margin-top: 200px;
+    position: relative;
+    
+    .img-show{
+        position: absolute;
+        left:0;
+        top: 0;
+        width: 676px;
+        height: 480px;
+        .small-img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 143px;
+            height: 429px;
+            
+            .img-item{
+                width: 143px;
+                height: 143px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+               
+            }
+            .choose-border{
+                border:3px solid @color;
+            }
+        }
+        .btn{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 143px;
+            height: 25px;
+            line-height: 25px;
+            text-align: center;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+            div{
+                position: absolute;
+                top: 0;
+                left: 50%;
+                width: 25px;
+                height: 25px;
+                background-color:black;
+            }
+            .samll-img-swiper-button-prev{
+                transform: translate(-130%);
+            }
+            .samll-img-swiper-button-next{
+                transform: translate(30%);
+            }
+            
+        }
+        .big-img{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 480px;
+            height: 480px;
+            border: 2px solid #f5f5f5;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .detail{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 480px;
+        font-size: 14px;
+        font-weight: 600;
+        h1{
+            margin-top: 20px;
+            font-size: 36px;
+        }
+        .size{
+            position: relative;
+            margin-top: 35px;
+            width: 300px;
+            height: 35px;
+            span{
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 35px;
+                line-height: 35px;
+                color:rgba(175, 175,175,0.9);;
+            }
+            .sizes{
+                position: absolute;
+                top: 0;
+                left: 40px;
+                width: 220px;
+                height: 35px;
+                div{
+                    float: left;
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    text-align: center;
+                    margin-right: 10px;
+                    border: 1px solid rgba(175, 175,175, .2);
+                }
+                .current{
+                    border: 2px solid black;
+                }
+            }
+        }
+        .color{
+            position: relative;
+            margin-top: 55px;
+            width: 300px;
+            height: 35px;
+            span{
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 35px;
+                line-height: 35px;
+                color:rgba(175, 175,175,0.9);;
+            }
+            .colors{
+                position: absolute;
+                top: 0;
+                left: 40px;
+                width: 220px;
+                height: 35px;
+                div{
+                    float: left;
+                    padding: 0 10px;
+                    height: 35px;
+                    line-height: 35px;
+                    text-align: center;
+                    margin-right: 10px;
+                    border: 1px solid rgba(175, 175,175, .2);
+                }
+                .current{
+                    border: 2px solid black;
+                }
+            }
+            
+        }
+        .num{
+            position: relative;
+            margin-top: 55px;
+            width: 300px;
+            height: 35px;
+            span{
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 35px;
+                line-height: 35px;
+                color:rgba(175, 175,175,0.9);;
+            }
+            .nums{
+                position: absolute;
+                top: 0;
+                left: 40px;
+                width: 220px;
+                height: 35px;
+                i{
+                    float: left;
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    text-align: center;
+                    background-color:rgba(175, 175,175, .1) ;
+                    border: 1px solid rgba(175, 175,175, .2);
+                    cursor: pointer;
+                }
+                input{
+                    float: left;
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    text-align: center;
+                    font-size: 14px;
+                    font-weight: 600;
+                    border: 1px solid rgba(175, 175,175, .2);
+                }
+                .current{
+                    border: 2px solid black;
+                }
+            }
+        }
+        button{
+            position: absolute;
+            bottom: 0;
+            left: 0px;
+            width: 280px;
+            height: 50px;
+            background-color:@color;
+            color: white;
+            font-size: 14px;
+        }
+    }
+}
